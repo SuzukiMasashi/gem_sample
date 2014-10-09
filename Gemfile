@@ -38,5 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'pry-rails',  group: %i(development test)
-gem 'pry-byebug', group: %i(development test)
+gem 'pry-rails',    group: %i(development test)
+gem 'pry-byebug',   group: %i(development test)
+
+gem 'hirb',         group: %i(development test)
+gem 'hirb-unicode', group: %i(development test)
